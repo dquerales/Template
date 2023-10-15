@@ -17,6 +17,13 @@ This is an example of how to list things you need to use the software and how to
 ```
 pip install -r "requirements.txt"
 ```
+2. Run train model
+```
+cd 'path'
+```
+```
+python src/train_model.py
+```
 
 # Usage
 
