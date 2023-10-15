@@ -10,6 +10,5 @@ def add_date_features(dataframe, date):
 	df['year'] = df[date].dt.year
 	df['dayofyear'] = df[date].dt.dayofyear
 	df['dayofmonth'] = df[date].dt.day
-	df['weekofyear'] = df[date].dt.weekofyear
 	df = df.set_index(date).sort_index()
 	return(df)
