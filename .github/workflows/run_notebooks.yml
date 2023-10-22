@@ -22,3 +22,7 @@ jobs:
         name: Jupyter Notebook Execution
         run: jupyter execute test/test_pipelines.ipynb
         shell: bash 
+	
+      - id: print
+        name: log
+        run: echo "Test completed!"
