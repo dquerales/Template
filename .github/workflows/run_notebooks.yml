@@ -20,5 +20,5 @@ jobs:
 
       - id: jupyter 
         name: Jupyter Notebook Execution
-        run: jupyter execute test_pipelines.ipynb
+        run: jupyter execute test/test_pipelines.ipynb
         shell: bash 
