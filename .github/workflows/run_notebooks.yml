@@ -1,0 +1,24 @@
+name: Execute notebook
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - id: repo 
+        name: Repo Checkout
+        uses: actions/checkout@v2
+
+      - id: python
+        name: Python Setup & Packages Installation
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+
+      - id: jupyter 
+        name: Jupyter Notebook Execution
+        run: jupyter execute test_pipelines.ipynb
+        shell: bash 
