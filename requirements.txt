@@ -2,3 +2,6 @@ pandas
 numpy
 xgboost
 scikit-learn
+jupyterlab
+nbclient
+plotly
