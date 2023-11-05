@@ -23,7 +23,8 @@ jobs:
       - name: execute py script 
         env:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: python src/train_model.py
+        working-directory: src
+        run: python train_model.py
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
