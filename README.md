@@ -38,7 +38,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 # Changelog
 
-[Changelog](CHANGELOG.md)
+- [Changelog](CHANGELOG.md)
 
 # Contact
 
