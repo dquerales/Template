@@ -35,7 +35,9 @@ Use this space to show useful examples of how a project can be used. Additional 
 - [ ] Feature 2
 - [ ] Feature 3
     - [ ] Nested Feature
-     
+
+# Changelog
+
 [Changelog](CHANGELOG.md)
 
 # Contact
