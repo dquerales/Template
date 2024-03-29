@@ -1,9 +1,3 @@
----
-title: Changelog
-layout: template
-filename: CHANGELOG.md
---- 
-
 # Changelog
  
 ## [Unreleased] - yyyy-mm-dd
